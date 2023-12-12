@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udit Singhal</title>
+    <link rel="stylesheet" href="udit.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-name">
+            <h1>Udit</h1><span>&nbsp;Singhal</span>
+        </div>
+        <ul class="nav-list">
+            <a href="#"><h4>Home</h4></a>
+            <a href="#about"><h4>About's</h4></a>
+            <a href="#categories"><h4>Skill</h4></a>
+            <a href="#certificate"><H4>Achivement</H4></a>
+            <a href="#contact"><h4>Contact</h4></a>
+        </ul>
+        <div class="three">
+            <ion-icon onclick=showSidebar() name="menu-outline"></ion-icon>
+        </div>
+        <ul class="navlist2">
+            <span onclick=hideSidebar()>&times;</span>
+            <a href="#"><h4>Home</h4></a>
+            <a href="#about"><h4>About's</h4></a>
+            <a href="#categories"><h4>Skill</h4></a>
+            <a href="#certificate"><H4>Achivement</H4></a>
+            <a href="#contact"><h4>Contact</h4></a>
+        </ul>
+    </nav>
+    <script>
+        function showSidebar()
+        {
+            const navlist2 = document.querySelector('.navlist2')
+            navlist2.style.display='flex'
+        }
+        function hideSidebar()
+        {
+            const navlist2= document.querySelector('.navlist2')
+            navlist2.style.display='none'
+        }
+    </script>
+    <section class="home" id="home">
+        <div class="homes">
+            <h3>Hello, <span> I am</span></h3>
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;Udit <span>Singhal</span></h1>
+            <br>
+            <p>
+                I'm a web developer and cybersecurity analyst 
+                    who loves building beautiful and functional 
+                    websites and providing cyber protection for 
+                    people who want to make a change in the world.
+            </p>
+            <br>
+            <p>
+                Currently I am a student of GL Bajaj Group of Institutions, where I am pursuing B.Tech. 
+            </p>
+            <br>
+            <h4>#Multipotentialite</h4>
+            <h4>#CyberSecurityLife</h4>
+            <h4>#WebDevLove</h4>
+            <a href="https://www.instagram.com/suryavanshi.udit0306/"><ion-icon class="iconsi" name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/udit-singhal-2381a0258/"><ion-icon class="iconsl" name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/Enggudit"><ion-icon class="iconsg" name="logo-github"></ion-icon></a>
+            <div class="btn">
+                <a href="#" download>DownLoad CV</a>
+            </div>
+        </div>
+        <img src="uditr.png" >
+    </section>
+    <section class="about" id="about">
+        <div class="image-container">
+            <img class="image1" src="head.jpeg">
+        </div>
+        <div class="abouts">
+            <h1>About <span>Me</span></h1>
+            <h4>My name is Udit Singhal, and I am currently pursuing a B.Tech degree at GL Bajaj Group of Institutions, set to be completed in 2025. I have a strong command of programming languages such as Java, C, C++, HTML, CSS, and PowerShell Scripting, along with proficiency in MySQL for database management.<br>
+                I am passionate about carving my career path in the fields of web development and cybersecurity, particularly in ethical hacking. I am actively preparing for these career pursuits. I approach my work with unwavering confidence and commitment, always ensuring that I see every task through to completion.
+                Apart from my academic pursuits, I also enjoy playing sports like kabaddi and badminton.<br> To further strengthen my skills, I have earned a certification in PowerShell Scripting through Udemy and attended a two-day workshop on ethical hacking at IIT Roorkee, for which I hold a certificate.
+                My dedication, skills, and eagerness to learn make me a promising candidate for any opportunity in the fields of web development and cybersecurity."<br>
+                This description highlights your educational background, technical skills, passion for web development and cybersecurity, commitment to completing tasks, interests outside of academics, and relevant certifications and experiences.
+            </h4>
+        </div>
+    </section>
+    <section class="categories" id="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Skills</h1>
+                <p>That's fantastic! Covering HTML, CSS, and JavaScript is a great way to address the fundamental building blocks of web development. These languages are essential for creating dynamic and visually appealing websites.</p>
+            </div>
+
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"><ion-icon name="logo-html5"></ion-icon></span>
+                    <h5>HTML</h5>
+                    <p>HTML is the building block for web pages, providing the structure and organization for content.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><ion-icon name="logo-css3"></ion-icon></span>
+                    <h5>CSS</h5>
+                    <p>Styling: CSS adds all the visual flair to HTML, like color, fonts, layouts, and animations, using properties and values.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><ion-icon name="logo-javascript"></ion-icon></span>
+                    <h5>JavaScript</h5>
+                    <p>Interactive Web: JS adds life to static HTML, making web pages dynamic and responsive.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><ion-icon name="cafe"></ion-icon></span>
+                    <h5>Java</h5>
+                    <p>Object-oriented, general-purpose programming language: Creates robust applications across platforms.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><ion-icon name="file-tray-stacked-outline"></ion-icon></span>
+                    <h5>Sql</h5>
+                    <p>Structured Query Language: SQL is a language for interacting with databases, allowing you to retrieve, manipulate,</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><ion-icon name="logo-tux"></ion-icon></span>
+                    <h5>Powershell scripting</h5>
+                    <p>Object-oriented scripting language: Automates tasks on Windows and other platforms, managing objects like files, services, and registry entries.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="certificates" id="certificate">
+        <div class="achivement">
+            <h1 align="center">Achivement</h1>
+            <div class="achivement-container">
+                <div class="box">
+                    <img src="2.jpeg">
+                </div>
+                <div class="box">
+                    <img src="1.jpeg">
+                </div>
+                <div class="box">
+                    <img src="3.jpg">
+                </div>
+                <div class="box">
+                    <img src="4.jpg">
+                </div>
+                <div class="box">
+                    <img src="5.jpg">
+                </div>
+                <div class="box">
+                    <img src="6.jpg">
+                </div>
+                <div class="box">
+                    <img src="7.jpg">
+                </div>
+                <div class="box">
+                    <img src="8.jpg">
+                </div>
+                <div class="box">
+                    <img src="9.jpg">
+                </div>
+            </div>
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="2.jpeg">
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.querySelectorAll('.achivement-container img').forEach(box => {
+            box.onclick = () =>{
+                document.querySelector('.popup-image').style.display='block';
+                document.querySelector('.popup-image img').src = box.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick=()=>{
+            document.querySelector('.popup-image').style.display='none';
+        }
+    </script>
+    <section class="contact" id="contact">
+        <div class="hero">
+            <form>
+                <h1 align="center">Contact Me</h1>
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><ion-icon name="person-sharp"></ion-icon>&nbsp;<h4>Name</h4></label>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="name" required>
+                    <label for="name"><ion-icon name="call"></ion-icon>&nbsp;<h4>Mobile No.</h4></label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="name" required>
+                    <label for="name"><ion-icon name="mail"></ion-icon>&nbsp;<h4>E-mail</h4></label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" cols="30" rows="10" required></textarea>
+                    <label for="message"><ion-icon name="chatbox"></ion-icon>&nbsp;<h4>Feedback</h4></label>
+                </div>
+                <button type="submit"><ion-icon name="paper-plane"></ion-icon>&nbsp;Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
