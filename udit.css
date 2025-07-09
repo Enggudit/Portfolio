@@ -386,7 +386,6 @@ nav
     margin-top: 35%;
     font-size: 255%;
 }
-
 .categories_container
 {
     display: grid;
@@ -405,7 +404,6 @@ nav
     margin-right: 4rem;
 
 }
-
 .categories_left p{
     margin: 1rem 0 3rem;
     font-size: 120%;
@@ -449,7 +447,6 @@ nav
     box-shadow: 0 0rem 8rem rgba(255, 255, 255, 0.3);
     z-index: 1;
 }
-
 .category:nth-child(2) .category_icon{
     background: #f75842;
 }
@@ -462,13 +459,11 @@ nav
 .category:nth-child(5) .category_icon{
     background: #00bf8e;
 }
-
 .category_icon{
     background: #6c63ff;
     padding: 8%;
     border-radius: 0.9rem;
 }
-
 .category h5{
     margin: 2rem 0 1rem;
     font-size: 132%;
